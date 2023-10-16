@@ -1,4 +1,4 @@
-pub fn str_split<'a>(mut s: &'a str, delimiter: &'a str) -> Vec<&'a str> {
+pub fn str_split<'s>(mut s: &'s str, delimiter: &str) -> Vec<&'s str> {
     let mut segments = Vec::new();
     while let Some(index) = s.find(delimiter) {
         segments.push(&s[..index]);
