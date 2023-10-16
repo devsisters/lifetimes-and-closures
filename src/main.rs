@@ -1,4 +1,4 @@
-use lifetimes_and_closures::str_split;
+use lifetimes_and_closures::str_split_vec::str_split;
 
 fn main() {
     let s = "a,bc,def";
